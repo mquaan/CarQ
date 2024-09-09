@@ -1,1 +1,27 @@
-/*# sourceMappingURL=Trending.css.map */
+:root {
+  --primaryColor: #7a63f1;
+  --secondaryColor: #ebe8fc;
+  --textColor: #a3a3a3;
+  --greyColor: #f4f4f4;
+  --whiteColor: #f5f4fa;
+  --blackColor: #434344;
+}
+
+.trending .secContainer .secHeading {
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.trending .secContainer .secHeading .navBtns {
+  gap: 0.5rem;
+}
+.trending .secContainer .secHeading .navBtns .icon {
+  padding: 3px 5px;
+  background: var(--secondaryColor);
+  border-radius: 3px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.trending .secContainer .secHeading .navBtns .icon:hover {
+  background: var(--primaryColor);
+  color: var(--whiteColor);
+}/*# sourceMappingURL=Trending.css.map */

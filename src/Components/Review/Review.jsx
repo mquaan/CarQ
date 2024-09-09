@@ -3,7 +3,7 @@ import './Review.css'
 
 function Review() {
   return (
-    <div>Review</div>
+    <div></div>
   )
 }
 
