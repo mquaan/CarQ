@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Car = ({ image, title, miles, specs, price, sellerStatus }) => {
+const SingleCar = ({ image, title, miles, specs, price, sellerStatus }) => {
   return (
     <div className="singleCar grid">
       <div className="imgDiv">
@@ -27,7 +27,7 @@ const Car = ({ image, title, miles, specs, price, sellerStatus }) => {
   );
 };
 
-Car.propTypes = {
+SingleCar.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   miles: PropTypes.string.isRequired,
@@ -36,4 +36,4 @@ Car.propTypes = {
   sellerStatus: PropTypes.string.isRequired,
 };
 
-export default Car;
+export default SingleCar;

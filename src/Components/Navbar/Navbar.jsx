@@ -16,8 +16,19 @@ function Navbar() {
     setNavbar('navbar')
   }
 
+  const [header, setHeader] = useState('header')
+  const addBg = () => {
+    if (window.scrollY >= 20) {
+      setHeader('header addBg')
+    } else {
+      setHeader('header')
+    }
+  }
+
+  window.addEventListener('scroll', addBg)
+
   return (
-    <div className='header'>
+    <div className={header}>
       <div className='logoDiv'>
         <img src={logo} alt='Logo' className='logo' />
       </div>
